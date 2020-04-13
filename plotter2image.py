@@ -26,5 +26,6 @@ for entry in data:
     col = int(233-(255 * (int(entry['i'])/9)))
     pixels[int(entry['x']),int(entry['y'])] = (col)
 
+img.save("plotterflut.jpg")
 img.show()
 
